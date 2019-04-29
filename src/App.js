@@ -11,7 +11,8 @@ function App() {
   return (
     <div>
       <BrowserRouter >
-        { /* ? */ }
+        <Route path="/moby-dick" component={MobyDick}/>
+        <Route path="/old-man-and-the-sea" component={OldManAndTheSea}/>
       </BrowserRouter> 
     </div>
   );
