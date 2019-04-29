@@ -12,9 +12,9 @@ function App() {
   return (
     <div>
       <BrowserRouter >
-        <Route path='/old-man-and-the-sea' component={OldManAndTheSea} />
-        <Route path='/moby-dick' component={MobyDick} />
-        <Route path='/' component={Home} />
+        <Route path='/old-man-and-the-sea/' component={OldManAndTheSea} />
+        <Route path='/moby-dick/' component={MobyDick} />
+        <Route path='/home' component={Home} />
       </BrowserRouter> 
     </div>
   );
